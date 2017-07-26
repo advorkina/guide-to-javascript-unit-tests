@@ -1,6 +1,8 @@
 A Guide to Javascript (and not only) Unit Testing
 =================================
 
+A document that was made to put together some of the knowledge regarding unit testing in JavaScript. Feel free to use it for your needs or to edit.
+
 ### The goal of these guidelines is to make your tests:
 
 * Readable
