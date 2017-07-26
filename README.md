@@ -1,4 +1,4 @@
-A Guide to Unit Testing
+A Guide to Javascript (and not only) Unit Testing
 =================================
 
 ### The goal of these guidelines is to make your tests:
