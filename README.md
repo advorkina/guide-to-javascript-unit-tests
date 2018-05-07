@@ -77,6 +77,37 @@ describe("binding dependencies", () => {
   })
 })
 ```
+In Angular use describe statement to separate unit tests, template shallow tests and integration tests:
+
+```javascript
+describe('unit tests', () => {
+  describe('[unit of work]', () => {
+    describe('when [scenario/context]', () => {
+      it('should [expected behaviour]', () => {
+      });
+    });
+  });
+});
+
+describe('template shallow tests', () => {
+  describe('[unit of work]', () => {
+    describe('when [scenario/context]', () => {
+      it('should [expected behaviour]', () => {
+      });
+    });
+  });
+});
+
+describe('integration tests', () => {
+  describe('[unit of work]', () => {
+    describe('when [scenario/context]', () => {
+      it('should [expected behaviour]', () => {
+      });
+    });
+  });
+});
+```
+
 4. **Use the Arrange-Act-Assert Style**
 5. **Measure Code Coverage to Find Missing Test Cases**  
 Use [wallaby app](http://wallabyjs.com/app/#/tests).
